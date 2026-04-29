@@ -5,7 +5,7 @@
 
 ```python
 class _Node:
-    """Single node of a tree. Keeps references to parent, left, right and some data."""
+    """Single node of a tree. Keeps references to left, right and some data."""
     pass
 
 
