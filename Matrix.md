@@ -39,31 +39,31 @@ def copy(mat):
     ...
 
 def destroy(mat):
-    """Clear matrix data and mark as empty."""
+    """Clear matrix data and mark as empty. Returns matrix"""
     ...
 
 def multiply(mat1, mat2):
-    """Multiply two matrices (mat1 * mat2)."""
+    """Returns new matrix (similarly in the methods below), the result of (mat1 * mat2)."""
     ...
 
 def subtract(mat1, mat2):
-    """Subtract mat2 from mat1."""
+    """Returns the result of (mat1 - mat2)."""
     ...
 
 def add(mat1, mat2):
-    """Add two matrices."""
+    """Returns the result of (mat1 + mat2)."""
     ...
 
 def multiply_scalar(mat, value):
-    """Multiply all matrix elements by scalar."""
+    """Multiply matrix by scalar."""
     ...
 
 def divide_scalar(mat, value):
-    """Divide all matrix elements by scalar."""
+    """Divide matrix by scalar."""
     ...
 
 def resize(mat, rows, cols):
-    """Resize matrix, fill new elements with zeros."""
+    """Resize existing matrix, fill new elements with zeros (if new dimensions greater than current)."""
     ...
 
 def get_element(mat, rowIdx, colIdx):
@@ -75,7 +75,7 @@ def set_element(mat, rowIdx, colIdx, value):
     ...
 
 def set_identity(mat):
-    """Transform matrix into identity (square part only)."""
+    """Transform matrix into identity (square only)."""
     ...
 
 def set_zero(mat):
@@ -86,27 +86,15 @@ def set_constants(mat, value):
     """Fill matrix with constant value."""
     ...
 
-def set_identity_resize(mat, rows, cols):
-    """Resize and then set as identity."""
-    ...
-
-def set_zero_resize(mat, rows, cols):
-    """Resize and then fill with zeros."""
-    ...
-
-def set_constants_resize(mat, rows, cols, value):
-    """Resize and then fill with constant value."""
-    ...
-
 def transpose(mat):
     """Return transposed matrix."""
     ...
 
 def inverse(mat):
-    """Return inverse matrix (square only)."""
+    """Returns inverse matrix (square only)."""
     ...
 
 def determinant(mat):
-    """Return determinant of square matrix."""
+    """Returns determinant of square matrix."""
     ...
 ```
