@@ -95,6 +95,6 @@ def inverse(mat):
     ...
 
 def determinant(mat):
-    """Returns determinant of square matrix."""
+    """Returns determinant of matrix (square only)."""
     ...
 ```
