@@ -75,7 +75,7 @@ def set_element(mat, rowIdx, colIdx, value):
     ...
 
 def set_identity(mat):
-    """Transform matrix into identity (square only)."""
+    """Transform matrix into identity (square part only)."""
     ...
 
 def set_zero(mat):
