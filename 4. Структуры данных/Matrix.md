@@ -103,6 +103,7 @@ def determinant(mat):
 C:
 ```c
 typedef struct {
+...
 } Matrix;
 
 Matrix create_empty();
