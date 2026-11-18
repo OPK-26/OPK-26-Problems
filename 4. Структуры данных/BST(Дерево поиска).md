@@ -46,7 +46,31 @@ def foreach(tree, func):
     """Call func for every element's data in tree in infix-order."""
     ...
 ```
+**Пример использования:**
 
+```python
+h = BST.create(cmp)
+BST.insert(h, 10)
+BST.insert(h, 4)
+BST.insert(h, -10)
+BST.insert(h, 12)
+BST.insert(h, 15)
+BST.insert(h, 13)
+
+n = BST.create(cmp)
+BST.insert(n, None)
+
+o = BST.create(cmp)
+
+assert BST.find(h, 5) is None
+assert BST.find(h, 4) == 4
+assert BST.find(h, 10) == -10
+assert BST.find(h, -15) == 15
+
+assert BST.size(h) == 5
+assert BST.size(n) == 1
+assert BST.size(o) == 0
+```
 
 ## C‑интерфейс
 Необходимо:
