@@ -1,48 +1,9 @@
 
 ### Задача: Реализовать структуру "AVL дерево"
 
-**Структура файла `avl.py`:**
-
-```python
-class _Node:
-    """Single node of a tree. Keeps references to left, right and some data."""
-    pass
-
-
-class Tree:
-    """Tree itself. Keeps root node of a tree and a comparision function."""
-    pass
-
-
-def create(cmp_func):
-    """Create empty tree."""
-
-
-def clear(tree):
-    """Clear tree but do not destroy tree itself."""
-
-
-def size(tree):
-    """Return number of elements."""
-
-
-def find(tree, data):
-    """Find element with equal data and return its data if any."""
-    
-
-def insert(tree, data):
-    """Insert data into tree and return replaced data if any."""
-   
-
-def delete(tree, data):
-    """Delete element with equal data and return its data if any."""
-
-
-def foreach(tree, func):
-    """Call func for every element's data in tree in infix-order."""
-
-
-```
+**Структура файла `avl.py`/avl.h:**
+См. задачу BST(Дерево поиска): 
+https://github.com/OPK-26/OPK-26-Problems/blob/main/4.%20%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/BST(%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0).md
 
 **Пример использования:**
 
